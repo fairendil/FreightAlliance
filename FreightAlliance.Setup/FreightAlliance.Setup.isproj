@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\FreightAlliance.Base\FreightAlliance.Base.csproj">
+			<Name>FreightAlliance.Base</Name>
+			<Project>{3822F768-C2B1-4708-BC3A-442159EB0F03}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Common\FreightAlliance.Common.csproj">
+			<Name>FreightAlliance.Common</Name>
+			<Project>{0244591E-4C44-43A1-BB6B-FB2363724264}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.HomeService\FreightAlliance.HomeService.csproj">
+			<Name>FreightAlliance.HomeService</Name>
+			<Project>{D130E246-50E7-475A-87D6-7294A19834E2}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Inventarization\FreightAlliance.Inventarization.csproj">
+			<Name>FreightAlliance.Inventarization</Name>
+			<Project>{A33533D2-33AB-4AD5-A4AB-1A6BF7987656}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Invoices\FreightAlliance.Invoices.csproj">
+			<Name>FreightAlliance.Invoices</Name>
+			<Project>{431B6093-5A55-4466-A46A-60524BA99719}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Orders\FreightAlliance.Orders.csproj">
+			<Name>FreightAlliance.Orders</Name>
+			<Project>{FAB1060A-38CD-4DB4-A668-365114BF3A79}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Service\FreightAlliance.Service.csproj">
+			<Name>FreightAlliance.Service</Name>
+			<Project>{31A755C7-461B-4E9C-883A-DA15311BDDB4}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Shell\FreightAlliance.Shell.csproj">
+			<Name>FreightAlliance.Shell</Name>
+			<Project>{D60635C7-0DDF-4902-9BDF-DB3006BD5AD4}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\FreightAlliance.Supplier\FreightAlliance.Supplier.csproj">
+			<Name>FreightAlliance.Supplier</Name>
+			<Project>{58765047-3191-4AAC-945E-BFE8CAA30C7F}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

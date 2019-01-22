@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FreightAlliance.Service.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NewAlliance;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False</Value>
+    </Setting>
+    <Setting Name="ServiceConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.1.40:8282/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

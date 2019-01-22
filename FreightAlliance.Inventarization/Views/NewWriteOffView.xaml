@@ -1,0 +1,39 @@
+﻿<Grid x:Class="FreightAlliance.Inventarization.Views.NewWriteOffView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:resource="clr-namespace:FreightAlliance.Inventarization.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+    
+        <Label Grid.Column="0" Grid.Row="0" Content="Date"/>
+        <DatePicker Grid.Column="1" Grid.Row="0"     SelectedDate="{Binding Path=Date, Mode=TwoWay}"/>
+
+    <Label Grid.Column="0" Grid.Row="1" Content="{x:Static resource:Resources.QuantityText}"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Path=Quantity}"/>
+    <Button x:Name="Select"
+                Grid.Row="2"
+                Grid.Column="0"
+                MinWidth="50"
+                Content="{x:Static resource:Resources.OkText}"/>
+    <Button x:Name="Cancel"
+                Grid.Column="1"
+                Grid.Row="2"
+            MinWidth="50"
+                Content="{x:Static resource:Resources.CancelText}"/>
+
+
+
+</Grid>

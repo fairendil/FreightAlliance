@@ -1,0 +1,55 @@
+﻿<Grid x:Class="FreightAlliance.Invoices.Views.InvoicesView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:cal="http://www.caliburnproject.org"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:model="clr-namespace:FreightAlliance.Base.Models;assembly=FreightAlliance.Base"
+      xmlns:system="clr-namespace:System;assembly=mscorlib"
+      xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+      xmlns:viewModels="clr-namespace:FreightAlliance.Invoices.ViewModels"
+      xmlns:resource="clr-namespace:FreightAlliance.Invoices.Properties"
+      d:DataContext="{d:DesignInstance Type=viewModels:InvoicesViewModel}"
+      mc:Ignorable="d">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <telerik:RadGridView x:Name="InvoicesGridView"
+                         FontSize="{DynamicResource ResourceKey=FontSize}"
+                         IsReadOnly="True"
+                         SelectedItem="{Binding Path=SelectedInvoice}"
+                         ItemsSource="{Binding Path=Invoices,
+                                               Mode=TwoWay}">
+        <telerik:RadGridView.RowDetailsTemplate>
+            <DataTemplate DataType="{x:Type viewModels:InvoiceViewModel}">
+
+                
+                    <telerik:RadDataForm VerticalAlignment="Stretch"
+                                     AutoEdit="True"
+                                                 AutoGeneratingField="RadDataForm_AutoGeneratingField"
+                                                 CurrentItem="{Binding}"
+                                     EditEnded="RadDataForm1_EditEnded"
+                                     FontSize="{DynamicResource ResourceKey=FontSize}"
+                                     Header="{x:Static resource:Resources.EditInvoiceText}" />
+                
+            </DataTemplate>
+        </telerik:RadGridView.RowDetailsTemplate>
+
+    </telerik:RadGridView>
+    <GridSplitter Grid.Row="1"
+                  Height="5"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Center"
+                  ShowsPreview="True" />
+
+    <telerik:DetailsPresenter x:Name="ExternalPresenter"
+                              Grid.Row="2"
+                              VerticalAlignment="Stretch"
+                              VerticalContentAlignment="Stretch"
+                              DataContextChanged="ExternalPresenter_OnDataContextChanged"
+                              DetailsProvider="{Binding RowDetailsProvider,
+                                                        ElementName=InvoicesGridView}" 
+                              FontSize="{DynamicResource ResourceKey=FontSize}" />
+</Grid>

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddOrderPositionText" xml:space="preserve">
+    <value>Добавить позицию порядка</value>
+  </data>
+  <data name="AmountText" xml:space="preserve">
+    <value>Остаток</value>
+  </data>
+  <data name="ApplicationController" xml:space="preserve">
+    <value>ApplicationController</value>
+  </data>
+  <data name="CreateNewOrderText" xml:space="preserve">
+    <value>Создайте новый заказ</value>
+  </data>
+  <data name="DataManager" xml:space="preserve">
+    <value>DataManager</value>
+  </data>
+  <data name="DeleteOrderPositionText" xml:space="preserve">
+    <value>Удаление позиции порядка</value>
+  </data>
+  <data name="DeleteOrderText" xml:space="preserve">
+    <value>Удаление заказа</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="HomeText" xml:space="preserve">
+    <value>Закупки</value>
+  </data>
+  <data name="InvoiceManager" xml:space="preserve">
+    <value>InvoiceManager</value>
+  </data>
+  <data name="InvoiceText" xml:space="preserve">
+    <value>Счет-фактура:</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="NewText" xml:space="preserve">
+    <value>Новые функции</value>
+  </data>
+  <data name="OrderCommentText" xml:space="preserve">
+    <value>Порядок комментарий:</value>
+  </data>
+  <data name="OrderDateText" xml:space="preserve">
+    <value>Дата заказа:</value>
+  </data>
+  <data name="OrderPositionText" xml:space="preserve">
+    <value>Позиции заказа</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>Статус заказа:</value>
+  </data>
+  <data name="OrderText" xml:space="preserve">
+    <value>Заказ</value>
+  </data>
+  <data name="PersonNameText" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="PersonPostText" xml:space="preserve">
+    <value>Должность лица:</value>
+  </data>
+  <data name="PriceText" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="QuantityText" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="ReceivedDateText" xml:space="preserve">
+    <value>Дата получения:</value>
+  </data>
+  <data name="RemarksText" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="RequestDateText" xml:space="preserve">
+    <value>Дата запроса:</value>
+  </data>
+  <data name="RequestsText" xml:space="preserve">
+    <value>Запросы</value>
+  </data>
+  <data name="SaveOrderPositionText" xml:space="preserve">
+    <value>Сохранить позицию порядка</value>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SupplierManager" xml:space="preserve">
+    <value>Менеджер Поставщиков</value>
+  </data>
+  <data name="SupplyForText" xml:space="preserve">
+    <value>Поставки для</value>
+  </data>
+  <data name="UnitText" xml:space="preserve">
+    <value>Единица</value>
+  </data>
+  <data name="UserText" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="VesselText" xml:space="preserve">
+    <value>Судно:</value>
+  </data>
+  <data name="OrderNumberColumnText" xml:space="preserve">
+    <value>Приказ №</value>
+  </data>
+  <data name="OrderStatusColumnText" xml:space="preserve">
+    <value>Статус заказа</value>
+  </data>
+  <data name="VesselColumnText" xml:space="preserve">
+    <value>Судно</value>
+  </data>
+  <data name="RequestDateColumnText" xml:space="preserve">
+    <value>Дата запроса</value>
+  </data>
+  <data name="OrderDateColumnText" xml:space="preserve">
+    <value>Дата заказа</value>
+  </data>
+  <data name="AllReceivedColumnText" xml:space="preserve">
+    <value>Все полученные</value>
+  </data>
+  <data name="SupplierColumnText" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="InvoiceColumnText" xml:space="preserve">
+    <value>Счет-фактура</value>
+  </data>
+  <data name="OrderTotalText" xml:space="preserve">
+    <value>Сумма заказа</value>
+  </data>
+  <data name="CommentsColumnText" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="OrderTypeColumnText" xml:space="preserve">
+    <value>Тип заказа</value>
+  </data>
+  <data name="DeleteReasonColumnText" xml:space="preserve">
+    <value>Удаление Причина!</value>
+  </data>
+  <data name="DeleteDateColumnText" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DateAtOfficeColumnText" xml:space="preserve">
+    <value>Получил в офисе!</value>
+  </data>
+  <data name="ReceivedColumnText" xml:space="preserve">
+    <value>Получанным!</value>
+  </data>
+  <data name="PartNumberTypeColumnText" xml:space="preserve">
+    <value>Номер детали</value>
+  </data>
+  <data name="StoragePlaceColumnText" xml:space="preserve">
+    <value>Место хранения!</value>
+  </data>
+  <data name="DrawingText" xml:space="preserve">
+    <value>Чертеж</value>
+  </data>
+  <data name="ManufacturedText" xml:space="preserve">
+    <value>Произведено</value>
+  </data>
+  <data name="PlateText" xml:space="preserve">
+    <value>Часть</value>
+  </data>
+  <data name="ManufacturedYearText" xml:space="preserve">
+    <value>Год производства</value>
+  </data>
+  <data name="PartSerialNumberText" xml:space="preserve">
+    <value>Серийный номер детали</value>
+  </data>
+  <data name="ConfirmText" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="SendText" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="ConfirmReceiptText" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="SendForQuotationText" xml:space="preserve">
+    <value>Отправить на квотацию</value>
+  </data>
+  <data name="SelectInvoiceText" xml:space="preserve">
+    <value>Выбрать счет</value>
+  </data>
+  <data name="NextStatusText" xml:space="preserve">
+    <value>Следующий статус</value>
+  </data>
+  <data name="OpenReportText" xml:space="preserve">
+    <value>Открыть отчет</value>
+  </data>
+  <data name="AddSparePartsOrderText" xml:space="preserve">
+    <value>Добавить заказ  на запасные части</value>
+  </data>
+  <data name="AddSupplyOrderText" xml:space="preserve">
+    <value>Добавить заказ на снабжение</value>
+  </data>
+  <data name="AddOfferText" xml:space="preserve">
+    <value>Добавить предложение</value>
+  </data>
+  <data name="DeleteOfferText" xml:space="preserve">
+    <value>Удалить предложение</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="ItemCodeText" xml:space="preserve">
+    <value>Код товара</value>
+  </data>
+  <data name="PosInDrawningText" xml:space="preserve">
+    <value>Позиция на чертеже</value>
+  </data>
+  <data name="CreationDateText" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="SentToOfficeDateText" xml:space="preserve">
+    <value>Дата отправки в офис</value>
+  </data>
+  <data name="ReceivedAtVesselDateText" xml:space="preserve">
+    <value>Дата получения на судне</value>
+  </data>
+  <data name="ReceivedAtOfficeDateText" xml:space="preserve">
+    <value>Дата получения в офисе</value>
+  </data>
+  <data name="NeedOrderPositionText" xml:space="preserve">
+    <value>Перед отправкой в офис нужно добавить позиции в заявку.</value>
+  </data>
+  <data name="OkText" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="SelectInventarizationDateText" xml:space="preserve">
+    <value>Выбрать дату инвентаризации</value>
+  </data>
+  <data name="WritenOffText" xml:space="preserve">
+    <value>Списано</value>
+  </data>
+  <data name="InventarizationText" xml:space="preserve">
+    <value>Инвентаризация</value>
+  </data>
+  <data name="MainText" xml:space="preserve">
+    <value>Закупки</value>
+  </data>
+</root>
