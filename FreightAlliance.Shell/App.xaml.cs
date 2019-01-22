@@ -9,6 +9,7 @@
 using System.Globalization;
 using System.Threading;
 using System.Windows.Markup;
+using Telerik.Windows.Controls;
 
 namespace FreightAlliance.Shell
 {
@@ -21,6 +22,7 @@ namespace FreightAlliance.Shell
     {
         public App() : base()
         {
+            StyleManager.ApplicationTheme = new VisualStudio2013Theme();
             this.Dispatcher.UnhandledException += OnDispatcherUnhandledException;
         }
 

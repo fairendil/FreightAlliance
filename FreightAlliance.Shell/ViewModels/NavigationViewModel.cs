@@ -46,7 +46,7 @@
                 }
 
                 this.selectedNavigationItem = value;
-                this.eventAggregator.PublishOnUIThread(this.selectedNavigationItem);
+                this.eventAggregator.PublishOnUIThreadAsync(this.selectedNavigationItem);
             }
         }
 

@@ -1,4 +1,7 @@
-﻿namespace FreightAlliance.Shell.ViewModels
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace FreightAlliance.Shell.ViewModels
 {
     using System.ComponentModel.Composition;
     using System.ComponentModel.Composition.Hosting;
@@ -38,6 +41,11 @@
             {
                 this.ActivateItem(screen.Value);
             }
+        }
+
+        public Task HandleAsync(INavigationItem message, CancellationToken cancellationToken)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

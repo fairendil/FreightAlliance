@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Shell\FreightAlliance.Shell.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="E:\dev\FreightAlliance\FreightAlliance.Shell\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="NLog.config" path="E:\dev\FreightAlliance\FreightAlliance.Shell\NLog.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Shell\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Shell\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Shell\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Shell" path="E:\dev\FreightAlliance\FreightAlliance.Shell\FreightAlliance.Shell.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Common\FreightAlliance.Common.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Common\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Common\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Common\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Common\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Common" path="E:\dev\FreightAlliance\FreightAlliance.Common\FreightAlliance.Common.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Orders\FreightAlliance.Orders.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Orders\app.config" />
+  <event action="Analyze" type="Success" name="Budget.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Budget.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Orders\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="OrderReport - Copy.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\OrderReport - Copy.resx" />
+  <event action="Analyze" type="Success" name="OrderReport.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\OrderReport.resx" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\Report1.resx" />
+  <event action="Analyze" type="Success" name="SparePartReport.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\SparePartReport.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Orders" path="E:\dev\FreightAlliance\FreightAlliance.Orders\FreightAlliance.Orders.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\FreightAlliance.Invoices.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Invoices" path="E:\dev\FreightAlliance\FreightAlliance.Invoices\FreightAlliance.Invoices.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\FreightAlliance.Supplier.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Supplier" path="E:\dev\FreightAlliance\FreightAlliance.Supplier\FreightAlliance.Supplier.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\FreightAlliance.Inventarization.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Inventarization" path="E:\dev\FreightAlliance\FreightAlliance.Inventarization\FreightAlliance.Inventarization.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Budget\FreightAlliance.Budget.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="E:\dev\FreightAlliance\FreightAlliance.Budget\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Budget\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Budget\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Budget\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Budget" path="E:\dev\FreightAlliance\FreightAlliance.Budget\FreightAlliance.Budget.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\FreightAlliance.StoragePlaces.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.StoragePlaces" path="E:\dev\FreightAlliance\FreightAlliance.StoragePlace\FreightAlliance.StoragePlaces.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Base\FreightAlliance.Base.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\dev\FreightAlliance\FreightAlliance.Base\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Base\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\dev\FreightAlliance\FreightAlliance.Base\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Resources.ru-RU.resx" path="E:\dev\FreightAlliance\FreightAlliance.Base\Properties\Resources.ru-RU.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Base" path="E:\dev\FreightAlliance\FreightAlliance.Base\FreightAlliance.Base.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Service\FreightAlliance.Service.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="E:\dev\FreightAlliance\FreightAlliance.Service\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="NLog.config" path="E:\dev\FreightAlliance\FreightAlliance.Service\NLog.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.Service\packages.config" />
+  <event action="Analyze" type="Success" name="ProjectInstaller.resx" path="E:\dev\FreightAlliance\FreightAlliance.Service\ProjectInstaller.resx" />
+  <event action="Analyze" type="Success" name="SignalRService.resx" path="E:\dev\FreightAlliance\FreightAlliance.Service\SignalRService.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.Service" path="E:\dev\FreightAlliance\FreightAlliance.Service\FreightAlliance.Service.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\FreightAlliance.HomeService.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="NLog.config" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\NLog.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\packages.config" />
+  <event action="Analyze" type="Success" name="ProjectInstaller.resx" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\ProjectInstaller.resx" />
+  <event action="Analyze" type="Success" name="SignalRService.resx" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\SignalRService.resx" />
+  <event action="Analyze" type="Success" name="FreightAlliance.HomeService" path="E:\dev\FreightAlliance\FreightAlliance.HomeService\FreightAlliance.HomeService.csproj" />
+  <event action="Analyze" type="Success" name="FreightAlliance" path="E:\dev\FreightAlliance\FreightAlliance.sln" />
+  <event action="Backup" type="Success" name="FreightAlliance.Orders" path="E:\dev\FreightAlliance\FreightAlliance.Orders\FreightAlliance.Orders.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="E:\dev\FreightAlliance\FreightAlliance.Orders\FreightAlliance.Orders.csproj" />
+  <event action="Upgrade" type="Success" name="OrderReport - Copy.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\OrderReport - Copy.resx" />
+  <event action="Upgrade" type="Success" name="OrderReport.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\OrderReport.resx" />
+  <event action="Upgrade" type="Success" name="SparePartReport.resx" path="E:\dev\FreightAlliance\FreightAlliance.Orders\Reports\SparePartReport.resx" />
+  <event action="Upgrade" type="Success" name="FreightAlliance.Orders" path="E:\dev\FreightAlliance\FreightAlliance.Orders\FreightAlliance.Orders.csproj" />
+  <event action="Upgrade" type="Success" name="FreightAlliance" path="E:\dev\FreightAlliance\FreightAlliance.sln" />
+</log>

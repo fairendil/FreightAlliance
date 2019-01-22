@@ -1,0 +1,53 @@
+﻿<Grid x:Class="FreightAlliance.Suppliers.Views.SuppliersView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:model="clr-namespace:FreightAlliance.Base.Models;assembly=FreightAlliance.Base"
+      xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+      xmlns:resource="clr-namespace:FreightAlliance.Suppliers.Properties"
+      xmlns:viewModels="clr-namespace:FreightAlliance.Suppliers.ViewModels"
+      xmlns:system="clr-namespace:System;assembly=mscorlib"
+      d:DataContext="{d:DesignInstance Type=viewModels:SuppliersViewModel}"
+      mc:Ignorable="d">
+    <Grid.Resources>
+        <system:Double  x:Key="FontSize">15</system:Double>
+    </Grid.Resources>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <telerik:RadGridView x:Name="SuppliersGridView"
+                         IsReadOnly="True"
+                         FontSize="{DynamicResource ResourceKey=FontSize}"
+                         SelectedItem="{Binding Path=SelectedSupplier}"
+                         ItemsSource="{Binding Path=Suppliers,
+                                               Mode=TwoWay}"
+                         >
+        <telerik:RadGridView.RowDetailsTemplate>
+            <DataTemplate DataType="{x:Type viewModels:SupplierViewModel}">
+                <telerik:RadDataForm VerticalAlignment="Stretch"
+                                                 
+                                                 AutoEdit="True"
+                                                 CurrentItem="{Binding}"
+                                     FontSize="{DynamicResource ResourceKey=FontSize}"
+                                                 Header="{x:Static resource:Resources.EditSupplierText}" 
+                                                 EditEnded="RadDataForm1_EditEnded"/>
+            </DataTemplate>
+        </telerik:RadGridView.RowDetailsTemplate>
+
+    </telerik:RadGridView>
+    <GridSplitter Grid.Row="1"
+                  Height="5"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Center"
+                  ShowsPreview="True" />
+    <telerik:DetailsPresenter x:Name="ExternalPresenter"
+                              Grid.Row="2"
+                              FontSize="{DynamicResource ResourceKey=FontSize}"
+                              VerticalAlignment="Stretch"
+                              VerticalContentAlignment="Stretch"
+                              DetailsProvider="{Binding RowDetailsProvider,
+                                                        ElementName=SuppliersGridView}" />
+</Grid>
