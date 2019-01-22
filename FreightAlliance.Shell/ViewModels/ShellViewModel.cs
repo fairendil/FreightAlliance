@@ -43,9 +43,13 @@ namespace FreightAlliance.Shell.ViewModels
             }
         }
 
-        public Task HandleAsync(INavigationItem message, CancellationToken cancellationToken)
+        public async Task HandleAsync(INavigationItem navigationItem, CancellationToken cancellationToken)
         {
-            throw new System.NotImplementedException();
+            var screen = this.container.GetExports<IScreen>(navigationItem.ItemName).FirstOrDefault();
+            if (screen != null)
+            {
+                this.ActivateItem(screen.Value);
+            }
         }
     }
 }
